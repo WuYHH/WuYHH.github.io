@@ -521,7 +521,7 @@
       <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
     </section>
     <section class='body'>
-      <div class="vlts-rps"><a class="item" href="/2020/11/05/demo/" title="demo" rel="bookmark "><img src="/img/2.jpg" class="lazyload" data-srcset="/img/2.jpg" srcset="data:image/png;base64,666" /><span class="title">demo</span></a></div></section></div>
+      <div class="vlts-rps"><a class="item" href="/2020/11/05/demo/" title="demo" rel="bookmark "><img src="/img/1.jpg" class="lazyload" data-srcset="/img/1.jpg" srcset="data:image/png;base64,666" /><span class="title">demo</span></a></div></section></div>
       
       
         <div class='copyright'>
@@ -533,7 +533,7 @@
               
             
               
-                <p>本文永久链接是：<a href=https://wuyhh.github.io/2020/11/05/hello-world/>https://wuyhh.github.io/2020/11/05/hello-world/</a></p>
+                <p>本文永久链接是：<a href=http://yuhann.cn/2020/11/05/hello-world/>http://yuhann.cn/2020/11/05/hello-world/</a></p>
               
             
           </blockquote>
@@ -572,7 +572,7 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wuyhh.github.io/2020/11/05/hello-world/&title=Hello World - 宇晗的博客&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yuhann.cn/2020/11/05/hello-world/&title=Hello World - 宇晗的博客&summary="
           
           >
           
@@ -584,7 +584,7 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://wuyhh.github.io/2020/11/05/hello-world/&title=Hello World - 宇晗的博客&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://yuhann.cn/2020/11/05/hello-world/&title=Hello World - 宇晗的博客&summary="
           
           >
           
@@ -596,7 +596,7 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://wuyhh.github.io/2020/11/05/hello-world/&title=Hello World - 宇晗的博客&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://yuhann.cn/2020/11/05/hello-world/&title=Hello World - 宇晗的博客&summary="
           
           >
           
@@ -698,7 +698,7 @@ this is my first blog!!
 
 
     <div class='content'>
-      <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 14px; color: #999">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 14px; color: #999">标签2</a>
+      <a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 14px; color: #999">二叉树</a> <a href="/tags/%E5%89%91%E6%8C%87offer/" style="font-size: 14px; color: #999">剑指offer</a> <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" style="font-size: 14px; color: #999">动态规划</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 14px; color: #999">算法</a>
     </div>
   </section>
 
@@ -1268,7 +1268,7 @@ document.addEventListener("DOMContentLoaded", listenSearch);
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'https://wuyhh.github.io' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'http://yuhann.cn' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1286,7 +1286,7 @@ document.addEventListener("DOMContentLoaded", listenSearch);
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'https://wuyhh.github.io' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'http://yuhann.cn' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1308,7 +1308,7 @@ document.addEventListener("DOMContentLoaded", listenSearch);
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'https://wuyhh.github.io' + pv.getAttribute('data-path');
+          var url = 'http://yuhann.cn' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
